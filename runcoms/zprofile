@@ -41,11 +41,26 @@ typeset -gU cdpath fpath mailpath path
 #   $cdpath
 # )
 
-# Set the list of directories that Zsh searches for programs.
+# Overwrite all the previous path setup.
 path=(
-  /usr/local/{bin,sbin}
-  $path
+'/Users/sbagley/bin'
+'/opt/local/bin'
+'/opt/local/sbin'
+'/usr/local/bin'
+'/usr/local/sbin'
+'/usr/bin'
+'/usr/sbin'
+'/bin'
+'/sbin'
+'/Library/TeX/texbin'
+'/opt/X11/bin'
+'/Applications/LibreOffice.app/Contents/MacOS'
+'/Applications/Emacs.app/Contents/MacOS/bin'
+'/Applications/Racket\ v7.4/bin'
+'/Users/sbagley/adb-fastboot/platform-tools'
 )
+
+export PATH
 
 #
 # Less
