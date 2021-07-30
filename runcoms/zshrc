@@ -52,6 +52,8 @@ export FZF_DEFAULT_COMMAND='fd --type f'
 # To apply the command to CTRL-T as well
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
+alias mu="/Users/sbagley/.emacs.d/straight/repos/mu/mu/mu"
+
 # Local Variables:
 # mode: shell-script
 # End:
