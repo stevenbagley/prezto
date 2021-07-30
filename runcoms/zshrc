@@ -11,6 +11,47 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+export EDITOR=emacsclient
+export VISUAL=emacsclient
+export PYTHONSTARTUP=/Users/sbagley/sync/dotfiles/pythonrc.py
+export TERM=xterm-256color
+## don't clear the screen with the last page of output:
+##export LESS="-Xr"
+
+# these work if you use brew cask install emacs:
+# alias emacstty="emacsclient -nw -a ''"
+# alias emacsframe="emacsclient -n -c -a ''"
+# alias emacsexit="emacsclient -e '(kill-emacs)'"
+# alias emacsdebug="/opt/local/bin/emacs --debug-init"
+# alias emacs="/Applications/Macports/EmacsMac.app/Contents/MacOS/Emacs"
+# alias emacsclient="/Applications/Macports/EmacsMac.app/Contents/MacOS/bin/emacsclient"
+
+## alias print_bds="enscript -P\"BDS-Xerox\""
+# I don't understand why the papertray does not default to the correct value.
+## alias printcode="enscript --font=Courier8 --highlight --line-numbers --lines-per-page=80 --statusdict=setpapertray:3"
+
+# alias ipnotebook="ipython notebook --matplotlib=inline"
+# alias ip="ipython --pylab"
+alias ls="ls -FG"
+
+# if [ -f ~/Dropbox/genenet/alias.sh ]; then
+#    source ~/Dropbox/genenet/alias.sh
+# fi
+
+# alias push_to_usb='rsync --archive --compress --progress --delete-after --exclude="/Sync/Sync\.Cache*" ~/Sync /Volumes/USB4GB/'
+# alias read_from_usb='rsync --archive --compress --progress /Volumes/USB4GB/Sync/ ~/Sync'
+
+alias etagr="etags --language=none --regex='/\([^ \t]+\)[ \t]*<-[ \t]*function/\1/' *.r"
+
+if [[ -s "/opt/local/share/fzf/shell/key-bindings.zsh" ]]; then
+  source "/opt/local/share/fzf/shell/key-bindings.zsh"
+fi
+
+# Setting fd as the default source for fzf
+export FZF_DEFAULT_COMMAND='fd --type f'
+# To apply the command to CTRL-T as well
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
 # Local Variables:
 # mode: shell-script
 # End:
