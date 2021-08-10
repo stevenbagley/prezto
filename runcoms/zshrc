@@ -54,6 +54,8 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 alias mu="/Users/sbagley/.emacs.d/straight/repos/mu/mu/mu"
 
+alias email="emacs --execute '(mu4e)'"
+
 # Local Variables:
 # mode: shell-script
 # End:
