@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 export EDITOR=emacsclient
 export VISUAL=emacsclient
-export PYTHONSTARTUP=/Users/sbagley/sync/dotfiles/pythonrc.py
+export PYTHONSTARTUP=/Users/sbagley/dotfiles/python/.pythonrc.py
 export TERM=xterm-256color
 ## don't clear the screen with the last page of output:
 ##export LESS="-Xr"
