@@ -43,6 +43,7 @@ typeset -gU cdpath fpath mailpath path
 
 # Overwrite all the previous path setup.
 path=(
+'/Users/sbagley/.local/bin'
 '/Users/sbagley/bin'
 '/opt/local/bin'
 '/opt/local/sbin'
@@ -56,6 +57,7 @@ path=(
 '/opt/X11/bin'
 '/Applications/LibreOffice.app/Contents/MacOS'
 '/Applications/Emacs.app/Contents/MacOS/bin'
+'/Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/aarch64'
 '/Applications/Racket\ v7.4/bin'
 '/Users/sbagley/adb-fastboot/platform-tools'
 )
