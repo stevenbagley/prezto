@@ -26,6 +26,8 @@ export TERM=xterm-256color
 # alias emacs="/Applications/Macports/EmacsMac.app/Contents/MacOS/Emacs"
 # alias emacsclient="/Applications/Macports/EmacsMac.app/Contents/MacOS/bin/emacsclient"
 
+alias st="/Applications/Syncthing.app/Contents/Resources/syncthing/syncthing"
+
 ## alias print_bds="enscript -P\"BDS-Xerox\""
 # I don't understand why the papertray does not default to the correct value.
 ## alias printcode="enscript --font=Courier8 --highlight --line-numbers --lines-per-page=80 --statusdict=setpapertray:3"
