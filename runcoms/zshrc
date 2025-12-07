@@ -26,6 +26,8 @@ export TERM=xterm-256color
 # alias emacs="/Applications/Macports/EmacsMac.app/Contents/MacOS/Emacs"
 # alias emacsclient="/Applications/Macports/EmacsMac.app/Contents/MacOS/bin/emacsclient"
 
+alias gls="gls --color"
+
 alias st="/Applications/Syncthing.app/Contents/Resources/syncthing/syncthing"
 
 ## alias print_bds="enscript -P\"BDS-Xerox\""
