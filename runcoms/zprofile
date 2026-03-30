@@ -45,8 +45,8 @@ typeset -gU cdpath fpath mailpath path
 path=(
 '/Users/sbagley/.local/bin'
 '/Users/sbagley/bin'
-'/opt/local/bin'
-'/opt/local/sbin'
+'/opt/homebrew/bin'
+'/opt/homebrew/sbin'
 '/usr/local/bin'
 '/usr/local/sbin'
 '/usr/bin'
@@ -60,8 +60,18 @@ path=(
 '/Users/sbagley/adb-fastboot/platform-tools'
 )
 
+## this can be used to add the /opt/homebrew paths (not needed, I add
+## them myself in the correct place, above):
+## eval "$(/opt/homebrew/bin/brew shellenv)"
+
+## set up completion
+autoload -Uz compinit
+compinit
+
 export PATH
 
+export HOMEBREW_NO_INSTALL_CLEANUP=1
+export HOMEBREW_NO_ENV_HINTS=1
 #
 # Less
 #
