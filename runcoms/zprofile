@@ -55,7 +55,6 @@ path=(
 '/sbin'
 '/Library/TeX/texbin'
 '/opt/X11/bin'
-'/Applications/Macports/Emacs.app/Contents/MacOS/bin'
 '/Applications/Emacs.app/Contents/MacOS/bin'
 '/Applications/LibreOffice.app/Contents/MacOS'
 '/Users/sbagley/adb-fastboot/platform-tools'
