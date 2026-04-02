@@ -72,6 +72,11 @@ export PATH
 
 export HOMEBREW_NO_INSTALL_CLEANUP=1
 export HOMEBREW_NO_ENV_HINTS=1
+
+## this is needed for mu4e. See
+## https://github.com/moriyoshi/cyrus-sasl-xoauth2/issues/9#issuecomment-2568755701
+export SASL_PATH=/opt/homebrew/opt/cyrus-sasl/lib/sasl2:/opt/homebrew/opt/cyrus-sasl-xoauth2/lib/sasl2
+
 #
 # Less
 #
